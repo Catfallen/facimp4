@@ -1,0 +1,32 @@
+Sistema de agendamentos de serviços para pets
+
+Funcionalidades:
+Cadastro de clientes(cliente).
+
+Gerenciamento de pets(cliente).
+Cadastrar um pet
+Buscar todos os pets pelo id do cliente
+Deletar um pet.
+Editar informaçoes de um pet
+
+Fluxo do Agendamento de serviços(cliente)
+
+1. Selecionar um pet (GetAllPets)
+2. Consultar serviços disponiveis (GetAllServices)
+3. Selecionar serviços
+4. Consultar profissionais disponiveis (getAllProfissionais)
+5. Selecionar profissional
+6. Consultar horarios disponiveis com base no profissional(getAllHorarios(idProfissional))
+7. Selecionar horarios
+
+Gerenciamento de profissionais(admin CRUD) 
+Gerenciamento de serviços(admin CRUD) 
+
+Gerenciamento de horarios(admin) 
+Gerador de horarios automatico ou manual, com base na configuraçao do admin
+Dia,intervalor(ex: 30 em 30 minutos)
+
+Cadastro de profissionais(admin).
+Cadastro de serviços(admin).
+Cadastro de horarios(admin).
+Gerenciamento de agendamentos(admin).
